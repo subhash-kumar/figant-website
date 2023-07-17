@@ -89,19 +89,19 @@ p {
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
-    color: #565656;
+    color: #42192b;
     margin-bottom: 0;
 }
 
 a {
-    color: #444;
+    color: #42192b;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
 
 a:hover,
 a:focus {
-    color: #0449c4;
+    color: #ff701f;
 }
 
 a,
@@ -246,7 +246,7 @@ img {
     display: inline-block;
     font-size: 56px;
     font-weight: 700;
-    text-transform: lowercase;
+    text-transform: capitalize;
     line-height: 1em;
     letter-spacing: -1.6px;
 }
@@ -542,7 +542,7 @@ img {
 }
 
 .overlay-dark::after {
-    background-color: rgba(16, 16, 45, 1);
+    background-color: rgba(196, 169, 56, .7);
     opacity: 0.95;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
     z-index: -1;
@@ -550,32 +550,32 @@ img {
 
 /*BACKGROUND COLORS*/
 .color-1 {
-    color: #be63f9;
+    color: #ff701f;
 }
 
 .color-2 {
-    color: #26c6da;
+    color: #ff701f;
 }
 
 .color-3 {
-    color: #fc573b;
+    color: #ff701f;
 }
 
 .color-4 {
-    color: #34FF92;
+    color: #ff701f;
 }
 
 .color-5 {
-    color: #ffd200;
+    color: #ff701f;
 }
 
 .color-6 {
-    color: #ff9d45;
+    color: #ff701f;
 }
 
 .color-1.bg-hover:hover::after,
 .color-1.bg-hover.active::after {
-    background-color: #be63f9;
+    background-color: #ff701f;
 }
 
 .color-2.bg-hover:hover::after,
@@ -605,6 +605,10 @@ img {
 
 .text-muted {
     color: #888 !important;
+}
+
+.bg-color {
+    background-color: #c59f38;
 }
 
 .bg-grey {
@@ -982,7 +986,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
-    padding: 20px 25px;
+    padding: 0px 25px;
     pointer-events: initial;
     z-index: 2;
 }
@@ -1041,7 +1045,7 @@ header {
     font-weight: 600;
     color: #fff;
     padding-right: 1rem;
-    padding-left: 1rem;
+    padding-left: 0rem;
 }
 
 .navbar-expand .navbar-nav .nav-link:hover {
@@ -1348,7 +1352,7 @@ header {
 .homepage-2 .btn.btn-bordered-white::after,
 .homepage-2 .bg-overlay::after,
 .homepage-2 .benifits-item::after {
-    background: linear-gradient(135deg, #be63f9 0%, #0449c4 100%);
+    background: linear-gradient(135deg, #c59f38 0%, #f6ca45 100%);
 }
 
 /* ******************************
@@ -1358,11 +1362,12 @@ header {
 .homepage-3 .btn.btn-bordered-white::after,
 .homepage-3 .bg-overlay::after,
 .homepage-3 .grad-hover::before {
-    background: linear-gradient(135deg, #10054d 0%, #45108a 100%);
+    background: linear-gradient(135deg, #c59f38 0%, #f6ca45 100%);
+    background: rgba(196, 169, 56, .7);
 }
 
 .homepage-3 .play-icon {
-    color: #45108a;
+    color: #ff701f;
 }
 
 .homepage-3 .welcome-thumb-2 {
@@ -1790,7 +1795,13 @@ body.dark,
 .service-area {
     z-index: 1;
 }
-
+.single-service{
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.single-service:hover{
+    box-shadow: 0px 10px 30px 0px #c59f38;
+    border-radius: 10px;
+}
 .single-service>span {
     display: inline-block;
     height: 4.5rem;
@@ -2036,7 +2047,7 @@ body.dark,
 
 .play-icon {
     font-size: 22px;
-    color: #0449c4;
+    color: #ff701f;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -2343,8 +2354,8 @@ body.dark,
     font-weight: 900;
     line-height: 1em;
     letter-spacing: -1.6px;
-    background-image: -webkit-linear-gradient(45deg, #af52ed 15%, #8830df 65%);
-    background-image: linear-gradient(45deg, #af52ed 15%, #8830df 65%);
+    background-image: -webkit-linear-gradient(45deg, #ff701f 15%, #c59f38 65%);
+    background-image: linear-gradient(45deg, #ff701f 15%, #42192b 65%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
