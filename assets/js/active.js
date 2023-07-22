@@ -96,7 +96,7 @@
     });
 
     $window.on('scroll', function () {
-        $('.navbar-sticky').toggleClass('hide', $(window).scrollTop() > zero);
+        $('.navbar-sticky').toggleClass('hide', $(window).scrollBottom() > zero);
         zero = $(window).scrollTop();
     });
 
