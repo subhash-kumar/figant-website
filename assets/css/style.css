@@ -92,7 +92,9 @@ p {
     color: #42192b;
     margin-bottom: 0;
 }
-
+.review-text p {
+    color: var(--light);
+}
 a {
     color: #42192b;
     -webkit-transition: all 0.3s ease 0s;
@@ -614,7 +616,8 @@ img {
 }
 
 .bg-grey {
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
+    background-color: #fbeeca;
 }
 
 .bg-inherit {
