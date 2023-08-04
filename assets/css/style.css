@@ -243,10 +243,13 @@ img {
 .section-heading>span {
     color: #222;
 }
+.review-text p {
+    color: #404040;
+}
 
 .section-heading>h2 {
     display: inline-block;
-    font-size: 56px;
+    font-size: 40px;
     font-weight: 700;
     text-transform: capitalize;
     line-height: 1em;
