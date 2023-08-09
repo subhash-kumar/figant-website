@@ -311,7 +311,7 @@ img {
 .btn.active {
     color: #fff;
     -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 10px 25px rgba(246, 202, 69, .8);
+    box-shadow: 0 10px 25px rgba(255, 224, 27, .8);
 }
 
 .btn.btn-bordered {
@@ -364,9 +364,9 @@ img {
 }
 
 .btn.btn-bordered-white {
-    background: transparent none repeat scroll 0 0;
+    background: #ffe01b none repeat scroll 0 0;
     /* border: 2px solid #fff; */
-    border: 2px solid #f6ca45;
+    border: 2px solid #ffe01b;
 }
 
 .btn.btn-bordered-white:hover,
@@ -557,32 +557,32 @@ img {
 
 /*BACKGROUND COLORS*/
 .color-1 {
-    color: #ff701f;
+    color: #e7b75f;
 }
 
 .color-2 {
-    color: #ff701f;
+    color: #e7b75f;
 }
 
 .color-3 {
-    color: #ff701f;
+    color: #e7b75f;
 }
 
 .color-4 {
-    color: #ff701f;
+    color: #e7b75f;
 }
 
 .color-5 {
-    color: #ff701f;
+    color: #e7b75f;
 }
 
 .color-6 {
-    color: #ff701f;
+    color: #e7b75f;
 }
 
 .color-1.bg-hover:hover::after,
 .color-1.bg-hover.active::after {
-    background-color: #ff701f;
+    background-color: #e7b75f;
 }
 
 .color-2.bg-hover:hover::after,
@@ -592,7 +592,7 @@ img {
 
 .color-3.bg-hover:hover::after,
 .color-3.bg-hover.active::after {
-    background-color: #fc573b;
+    background-color: #e7b75f;
 }
 
 .color-4.bg-hover:hover::after,
@@ -615,7 +615,7 @@ img {
 }
 
 .bg-color {
-    background-color: #fe7629;
+    background-color: #e7b75f;
 }
 
 .bg-grey {
@@ -1375,7 +1375,7 @@ header {
 .homepage-2 .btn.btn-bordered-white::after,
 .homepage-2 .bg-overlay::after,
 .homepage-2 .benifits-item::after {
-    background: linear-gradient(135deg, #c59f38 0%, #f6ca45 100%);
+    background: linear-gradient(135deg, #ffe01b 0%, #f6ca45 100%);
 }
 
 /* ******************************
@@ -1385,8 +1385,8 @@ header {
 .homepage-3 .btn.btn-bordered-white::after,
 .homepage-3 .bg-overlay::after,
 .homepage-3 .grad-hover::before {
-    background: linear-gradient(135deg, #c59f38 0%, #f6ca45 100%);
-    background: rgb(255, 112, 31);
+    background: linear-gradient(135deg, #ffe01b 0%, #f6ca45 100%);
+    background: rgb(231, 183, 95);
 }
 
 .homepage-3 .play-icon {
